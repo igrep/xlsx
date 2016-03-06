@@ -4,6 +4,7 @@
 -- | This module provides a function for reading .xlsx files
 module Codec.Xlsx.Parser
     ( toXlsx
+    , getSharedStrings
     ) where
 
 import qualified Codec.Archive.Zip as Zip
